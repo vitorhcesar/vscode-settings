@@ -1,0 +1,181 @@
+{
+  // Abrir sempre o json do Settings
+  "workbench.settings.editor": "json",
+  
+  // TailwindCSS
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "css": "css"
+  },
+
+  // VSCode UI
+  "breadcrumbs.enabled": false,
+  "editor.hover.delay": 1500,
+  "editor.hover.enabled": true,
+  "editor.renderLineHighlight": "none",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // Adicionando CSS e JS custom ao VSCode
+  "vscode_custom_css.imports": [
+    "custom.css",
+    "custom.js",
+  ],
+
+  // Mudando a fonte
+  "editor.fontSize": 16,
+  "editor.fontWeight": 500,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "JetBrainsMono Nerd Font",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+  "notebook.output.fontFamily": "JetBrainsMono Nerd Font",
+  "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+
+  // Vim
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimClean": true,
+  "vscode-neovim.useWSL": true,
+  // "window.commandCenter": false,
+  // "editor.scrollbar.vertical": "auto",
+  // "editor.scrollbar.horizontal": "auto",
+  // "window.titleBarStyle": "custom",
+
+  // Editor
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[mojo]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[c]": {
+    "editor.tabSize": 4
+  },
+  "[cpp]": {
+    "editor.tabSize": 4
+  },
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 70,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+  // Mojo
+  "mojo.modularHomePath": ".modular",
+
+  // Misc
+  "explorer.compactFolders": false,
+  "breadcrumbs.filePath": "off",
+  // "files.trimTrailingWhitespace": true,
+  // "[markdown]": {
+  //   "files.trimTrailingWhitespace": false
+  // },
+  // "editor.guides.bracketPairs": true,
+  // Outros
+  // "typescript.suggest.classMemberSnippets.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "developer-icon-theme",
+  "git.autofetch": true,
+  "terminal.external.windowsExec": "Hyper.exe",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "html.format.wrapAttributes": "force",
+  "html.format.wrapLineLength": 70,
+  "tabnine.experimentalAutoImports": true,
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "liveServer.settings.donotVerifyTags": true,
+  "symbols.hidesExplorerArrows": false,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorWidth": 2,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "debug.onTaskErrors": "abort",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "terminal.integrated.fontSize": 17,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggest.insertMode": "replace",
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // VSCode Performance
+  "terminal.integrated.gpuAcceleration": "on",
+  "search.searchOnType": true,
+  "editor.codeLens": false,
+  "workbench.productIconTheme": "developer-icons",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.colorTheme": "Vim Dark Medium",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "interactiveWindow.executeWithShiftEnter": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "remote.autoForwardPortsSource": "hybrid",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.SSH.remotePlatform": {
+    "minhacertida.vps.webdock.cloud": "linux"
+  },
+  "window.menuBarVisibility": "compact",
+  "workbench.statusBar.visible": false
+}
